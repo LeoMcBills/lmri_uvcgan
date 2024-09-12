@@ -30,3 +30,55 @@
 009 (845403.001.000) 2024-09-12 13:30:51 Job was aborted.
 	via condor_rm (by user i3m1213)
 ...
+000 (845404.000.000) 2024-09-12 13:43:27 Job submitted from host: <147.156.116.133:9618?addrs=147.156.116.133-9618&alias=cm02.ific.uv.es&noUDP&sock=schedd_31047_3cf3>
+...
+000 (845404.001.000) 2024-09-12 13:43:27 Job submitted from host: <147.156.116.133:9618?addrs=147.156.116.133-9618&alias=cm02.ific.uv.es&noUDP&sock=schedd_31047_3cf3>
+...
+001 (845404.000.000) 2024-09-12 13:43:28 Job executing on host: <147.156.116.132:9618?addrs=147.156.116.132-9618&alias=mlwn02.ific.uv.es&noUDP&sock=startd_3763_aef8>
+...
+006 (845404.000.000) 2024-09-12 13:43:28 Image size of job updated: 1
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+005 (845404.000.000) 2024-09-12 13:43:28 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :                 1        32 
+	   Disk (KB)            :        1  1048576 253749524 
+	   Gpus (Average)       :                 1         1 "GPU-a45442a7"
+	   Memory (MB)          :        0     4000    231259 
+
+	Job terminated of its own accord at 2024-09-12T11:43:28Z.
+...
+001 (845404.001.000) 2024-09-12 13:43:29 Job executing on host: <147.156.116.132:9618?addrs=147.156.116.132-9618&alias=mlwn02.ific.uv.es&noUDP&sock=startd_3763_aef8>
+...
+006 (845404.001.000) 2024-09-12 13:43:29 Image size of job updated: 1
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+005 (845404.001.000) 2024-09-12 13:43:29 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated Assigned
+	   Cpus                 :                 1        32 
+	   Disk (KB)            :        1  1048576 253749524 
+	   Gpus (Average)       :                 1         1 "GPU-a45442a7"
+	   Memory (MB)          :        0     4000    231259 
+
+	Job terminated of its own accord at 2024-09-12T11:43:29Z.
+...
