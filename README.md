@@ -8,4 +8,5 @@ Project uvcgan2 for lfmri uganda
 - I have populated config with files
 - **ToDO** : data shall be populated later
 - I have populated eval with files
-- next is the Models package
+- I have updated the models package
+- next is the train package
