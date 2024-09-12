@@ -1,0 +1,16 @@
+# Re-write uvcgan2 to lmri enhancer
+ 
+universe = vanilla
+
+executable          = lmri.sh
+arguments           = $(Cluster) $(Process)
+
+log                 = hello_world.log
+output              = outfile.$(Cluster).$(Process).out
+error               = errors.$(Cluster).$(Process).err
+
+request_gpus        = 1
+request_memory      = 4000
+request_disk        = 1G
+
+queue 2
