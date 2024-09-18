@@ -1,6 +1,6 @@
-from uvcgan2.torch.select             import select_optimizer, select_loss
-from uvcgan2.torch.image_masking      import select_masking
-from uvcgan2.models.generator         import construct_generator
+from uvcganmri.torch.select             import select_optimizer, select_loss
+from uvcganmri.torch.image_masking      import select_masking
+from uvcganmri.models.generator         import construct_generator
 
 from .model_base import ModelBase
 from .named_dict import NamedDict
