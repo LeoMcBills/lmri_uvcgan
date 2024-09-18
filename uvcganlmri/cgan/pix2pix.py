@@ -9,10 +9,10 @@
 
 import torch
 
-from uvcgan2.torch.select         import select_optimizer
-from uvcgan2.base.losses          import GANLoss, cal_gradient_penalty
-from uvcgan2.models.discriminator import construct_discriminator
-from uvcgan2.models.generator     import construct_generator
+from uvcganmri.torch.select         import select_optimizer
+from uvcganmri.base.losses          import GANLoss, cal_gradient_penalty
+from uvcganmri.models.discriminator import construct_discriminator
+from uvcganmri.models.generator     import construct_generator
 
 from .model_base import ModelBase
 from .named_dict import NamedDict
