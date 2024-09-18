@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: uvcganmri
+Version: 0.0.1
+Summary: A Python project for UVCGAN MRI models.
+Author-email: Leo Kinyera <leokinyera81@gmail.com>
+License-File: LICENSE
+Requires-Dist: torch>=1.8.0
+Requires-Dist: torchvision
+Requires-Dist: numpy
+Requires-Dist: matplotlib>=3.9.1
+Requires-Dist: pyparsing>=2.3.1
