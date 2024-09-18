@@ -1,0 +1,116 @@
+000 (845799.000.000) 2024-09-16 17:02:53 Job submitted from host: <147.156.116.133:9618?addrs=147.156.116.133-9618&alias=cm02.ific.uv.es&noUDP&sock=schedd_31047_3cf3>
+...
+000 (845799.001.000) 2024-09-16 17:02:53 Job submitted from host: <147.156.116.133:9618?addrs=147.156.116.133-9618&alias=cm02.ific.uv.es&noUDP&sock=schedd_31047_3cf3>
+...
+001 (845799.000.000) 2024-09-16 17:02:54 Job executing on host: <147.156.116.152:9618?addrs=147.156.116.152-9618&alias=mlwn10.ific.uv.es&noUDP&sock=startd_185119_d09f>
+...
+007 (845799.000.000) 2024-09-16 17:02:54 Shadow exception!
+	Error from slot1@mlwn10.ific.uv.es: Failed to execute '/lhome/ext/i3m121/i3m1213/Robert_MRI_Uganda/lmri_uvcgan/uvcganlmri/launch.sh' with arguments 845799 0: (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+001 (845799.001.000) 2024-09-16 17:02:54 Job executing on host: <147.156.116.152:9618?addrs=147.156.116.152-9618&alias=mlwn10.ific.uv.es&noUDP&sock=startd_185119_d09f>
+...
+012 (845799.000.000) 2024-09-16 17:02:54 Job was held.
+	Error from slot1@mlwn10.ific.uv.es: Failed to execute '/lhome/ext/i3m121/i3m1213/Robert_MRI_Uganda/lmri_uvcgan/uvcganlmri/launch.sh' with arguments 845799 0: (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+007 (845799.001.000) 2024-09-16 17:02:54 Shadow exception!
+	Error from slot1@mlwn10.ific.uv.es: Failed to execute '/lhome/ext/i3m121/i3m1213/Robert_MRI_Uganda/lmri_uvcgan/uvcganlmri/launch.sh' with arguments 845799 1: (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (845799.001.000) 2024-09-16 17:02:54 Job was held.
+	Error from slot1@mlwn10.ific.uv.es: Failed to execute '/lhome/ext/i3m121/i3m1213/Robert_MRI_Uganda/lmri_uvcgan/uvcganlmri/launch.sh' with arguments 845799 1: (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+009 (845799.000.000) 2024-09-16 17:03:24 Job was aborted.
+	via condor_rm (by user i3m1213)
+...
+009 (845799.001.000) 2024-09-16 17:03:24 Job was aborted.
+	via condor_rm (by user i3m1213)
+...
+000 (845800.000.000) 2024-09-16 17:03:42 Job submitted from host: <147.156.116.133:9618?addrs=147.156.116.133-9618&alias=cm02.ific.uv.es&noUDP&sock=schedd_31047_3cf3>
+...
+000 (845800.001.000) 2024-09-16 17:03:42 Job submitted from host: <147.156.116.133:9618?addrs=147.156.116.133-9618&alias=cm02.ific.uv.es&noUDP&sock=schedd_31047_3cf3>
+...
+001 (845800.000.000) 2024-09-16 17:03:43 Job executing on host: <147.156.116.152:9618?addrs=147.156.116.152-9618&alias=mlwn10.ific.uv.es&noUDP&sock=startd_185119_d09f>
+...
+007 (845800.000.000) 2024-09-16 17:03:43 Shadow exception!
+	Error from slot1@mlwn10.ific.uv.es: Failed to execute '/lhome/ext/i3m121/i3m1213/Robert_MRI_Uganda/lmri_uvcgan/uvcganlmri/launch.sh' with arguments 845800 0: (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+001 (845800.001.000) 2024-09-16 17:03:43 Job executing on host: <147.156.116.152:9618?addrs=147.156.116.152-9618&alias=mlwn10.ific.uv.es&noUDP&sock=startd_185119_d09f>
+...
+012 (845800.000.000) 2024-09-16 17:03:43 Job was held.
+	Error from slot1@mlwn10.ific.uv.es: Failed to execute '/lhome/ext/i3m121/i3m1213/Robert_MRI_Uganda/lmri_uvcgan/uvcganlmri/launch.sh' with arguments 845800 0: (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+007 (845800.001.000) 2024-09-16 17:03:43 Shadow exception!
+	Error from slot1@mlwn10.ific.uv.es: Failed to execute '/lhome/ext/i3m121/i3m1213/Robert_MRI_Uganda/lmri_uvcgan/uvcganlmri/launch.sh' with arguments 845800 1: (errno=13: 'Permission denied')
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+...
+012 (845800.001.000) 2024-09-16 17:03:43 Job was held.
+	Error from slot1@mlwn10.ific.uv.es: Failed to execute '/lhome/ext/i3m121/i3m1213/Robert_MRI_Uganda/lmri_uvcgan/uvcganlmri/launch.sh' with arguments 845800 1: (errno=13: 'Permission denied')
+	Code 6 Subcode 13
+...
+009 (845800.000.000) 2024-09-16 17:04:05 Job was aborted.
+	via condor_rm (by user i3m1213)
+...
+009 (845800.001.000) 2024-09-16 17:04:05 Job was aborted.
+	via condor_rm (by user i3m1213)
+...
+000 (845801.000.000) 2024-09-16 17:04:32 Job submitted from host: <147.156.116.133:9618?addrs=147.156.116.133-9618&alias=cm02.ific.uv.es&noUDP&sock=schedd_31047_3cf3>
+...
+000 (845801.001.000) 2024-09-16 17:04:32 Job submitted from host: <147.156.116.133:9618?addrs=147.156.116.133-9618&alias=cm02.ific.uv.es&noUDP&sock=schedd_31047_3cf3>
+...
+001 (845801.000.000) 2024-09-16 17:04:33 Job executing on host: <147.156.116.152:9618?addrs=147.156.116.152-9618&alias=mlwn10.ific.uv.es&noUDP&sock=startd_185119_d09f>
+...
+001 (845801.001.000) 2024-09-16 17:04:33 Job executing on host: <147.156.116.152:9618?addrs=147.156.116.152-9618&alias=mlwn10.ific.uv.es&noUDP&sock=startd_185119_d09f>
+...
+006 (845801.000.000) 2024-09-16 17:04:33 Image size of job updated: 1
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+005 (845801.000.000) 2024-09-16 17:04:33 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:01, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 4         8 
+	   Disk (KB)            :        1  1048576   1522498 
+	   Gpus (Average)       :                           0 
+	   Memory (MB)          :        0     4000     16384 
+
+	Job terminated of its own accord at 2024-09-16T15:04:33Z.
+...
+006 (845801.001.000) 2024-09-16 17:04:33 Image size of job updated: 75604
+	0  -  MemoryUsage of job (MB)
+	0  -  ResidentSetSize of job (KB)
+...
+005 (845801.001.000) 2024-09-16 17:04:34 Job terminated.
+	(1) Normal termination (return value 0)
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Run Local Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Remote Usage
+		Usr 0 00:00:00, Sys 0 00:00:00  -  Total Local Usage
+	0  -  Run Bytes Sent By Job
+	0  -  Run Bytes Received By Job
+	0  -  Total Bytes Sent By Job
+	0  -  Total Bytes Received By Job
+	Partitionable Resources :    Usage  Request Allocated 
+	   Cpus                 :                 4         8 
+	   Disk (KB)            :        1  1048576   1522498 
+	   Gpus (Average)       :                           0 
+	   Memory (MB)          :        0     4000     16384 
+
+	Job terminated of its own accord at 2024-09-16T15:04:33Z.
+...
