@@ -79,7 +79,7 @@ build-backend = "setuptools.build_meta"
 name = "uvcganmri"
 version = "0.0.1"
 description = "A Python project for UVCGAN MRI models."
-authors = [{name = "Leo Kinyera", email = "leokinyera81@gmail.com"}]
+authors = [{name = "Leo Kinyera", email = "leokinyera81@gmail.com"}, {name = "Joachim Musiimenta", email = "musiimentajoachim10@gmail.com"}]
 dependencies = [
     "torch>=1.8.0",
     "torchvision",
