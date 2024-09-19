@@ -89,7 +89,7 @@ dependencies = [
 ]
 ```
 
-So to set our project up, just use the following command in terminal
+So to set the project up, just use the following command in terminal
 ```bash
 pip3 install -e . --use-pep517
 ```
