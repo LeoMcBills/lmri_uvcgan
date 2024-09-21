@@ -5,11 +5,11 @@ universe = vanilla
 executable          = launch.sh
 arguments           = $(Cluster) $(Process)
 
-log                 = hello_world.log
+log                 = lmri_model.log
 output              = outfile.$(Cluster).$(Process).out
 error               = errors.$(Cluster).$(Process).err
 
-request_gpus        = 8
+request_gpus        = 1
 request_memory      = 4000
 request_disk        = 1G
 
