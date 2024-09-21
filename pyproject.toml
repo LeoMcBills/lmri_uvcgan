@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "uvcganmri"
+version = "0.0.1"
+description = "A Python project for UVCGAN MRI models."
+authors = [{name = "Leo Kinyera", email = "leokinyera81@gmail.com"}, {name = "Joachim Musiimenta", email = "musiimentajoachim10@gmail.com"}]
+dependencies = [
+    "torch>=1.8.0",
+    "torchvision",
+    "numpy",
+    "matplotlib>=3.9.1",
+    "pyparsing>=2.3.1"  # Resolves your missing dependency
+]
