@@ -9,7 +9,7 @@ log                 = hello_world.log
 output              = outfile.$(Cluster).$(Process).out
 error               = errors.$(Cluster).$(Process).err
 
-request_gpus        = 2
+request_gpus        = 8
 request_memory      = 4000
 request_disk        = 1G
 

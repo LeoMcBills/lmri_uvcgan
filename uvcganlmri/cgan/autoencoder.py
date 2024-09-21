@@ -1,9 +1,9 @@
 # pylint: disable=not-callable
 # NOTE: Mistaken lint:
 # E1102: self.encoder is not callable (not-callable)
-from uvcganmri.torch.select             import select_optimizer, select_loss
-from uvcganmri.torch.image_masking      import select_masking
-from uvcganmri.models.generator         import construct_generator
+from torch.select             import select_optimizer, select_loss
+from torch.image_masking      import select_masking
+from models.generator         import construct_generator
 
 from .model_base import ModelBase
 from .named_dict import NamedDict
