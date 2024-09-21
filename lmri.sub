@@ -5,7 +5,7 @@ universe = vanilla
 executable          = lmri.sh
 arguments           = $(Cluster) $(Process)
 
-log                 = hello_world.log
+log                 = lmri_uganda.log
 output              = outfile.$(Cluster).$(Process).out
 error               = errors.$(Cluster).$(Process).err
 
