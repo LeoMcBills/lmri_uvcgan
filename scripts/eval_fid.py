@@ -116,5 +116,7 @@ def main():
 
     save_metrics(cmdargs.root, metrics)
 
+print("Eval_fid script run successfully")
+
 if __name__ == '__main__':
     main()
