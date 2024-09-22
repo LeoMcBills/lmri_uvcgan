@@ -70,3 +70,5 @@ def load(named_dict, savedir, prefix, epoch, device):
             v.load_state_dict(
                 torch.load(load_path, map_location = device)
             )
+
+print("Checkpoint was run successfully")
