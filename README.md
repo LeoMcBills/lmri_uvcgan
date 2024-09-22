@@ -95,3 +95,8 @@ pip3 install -e . --use-pep517
 ```
 
 ### *You are now ready to contribute, thanks and sorry for the inconveniences brought about by the late README update*
+
+# Why the `conda activate $myenv` command was actually not activating the environment?
+Apparently by default, Conda doesn't automatically integrate with non-iteractive shell scripts. Therefore, a command; `eval "$(conda shell.bash hook)"` ensures that Conda commands, like `activate`, will work within the script.
+
+**NOTE**: The stated command only initializes the Conda environment in the current Bash session.
