@@ -13,5 +13,5 @@ error               = errors.$(Cluster).$(Process).err
 
 getenv = True
 
-request_gpus = 4
+request_gpus = 2
 queue
