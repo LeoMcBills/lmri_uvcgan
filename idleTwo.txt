@@ -1,0 +1,39 @@
+
+
+-- Schedd: cm02.ific.uv.es : <147.156.116.133:9618?...
+The Requirements expression for job 775621.000 is
+
+    (RequirementsOrig) && (RequirementsUserGroupLimit)
+
+Job 775621.000 defines the following attributes:
+
+    DiskUsage = 1
+    FileSystemDomain = "ific.uv.es"
+    GroupMaxRunningJobs = 16.0
+    ImageSize = 1
+    RequestDisk = DiskUsage
+    RequestGPUs = 4
+    RequestMemory = ifthenelse(MemoryUsage =!= undefined,MemoryUsage,(ImageSize + 1023) / 1024)
+    RequirementsOrig = TARGET.HasNvidiaA100 == true && (RequirementsPreA100)
+    RequirementsPreA100 = (TARGET.Arch == "X86_64") && (TARGET.OpSys == "LINUX") && (TARGET.Disk >= RequestDisk) && (TARGET.Memory >= RequestMemory) && (TARGET.GPUs >= RequestGPUs) && ((TARGET.FileSystemDomain == MY.FileSystemDomain) || (TARGET.HasFileTransfer))
+    RequirementsUserGroupLimit = ((isUndefined(SubmitterUserResourcesInUse) || (SubmitterUserResourcesInUse < UserMaxRunningJobs)) && (isUndefined(SubmitterGroupResourcesInUse) || (SubmitterGroupResourcesInUse < GroupMaxRunningJobs)))
+    UserMaxRunningJobs = 6.0
+
+The Requirements expression for job 775621.000 reduces to these conditions:
+
+         Slots
+Step    Matched  Condition
+-----  --------  ---------
+[0]           0  RequirementsOrig
+
+
+775621.000:  Run analysis summary ignoring user priority.  Of 66 machines,
+     66 are rejected by your job's requirements
+      0 reject your job because of their own requirements
+      0 match and are already running your jobs
+      0 match but are serving other users
+      0 are able to run your job
+
+WARNING:  Be advised:
+   No machines matched the jobs's constraints
+
