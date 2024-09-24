@@ -40,31 +40,38 @@ For example my branch name is `leo` so the following is what I see
 # Now let us set up the model under developement
 So this below should be your code structure
 ```bash
-(lmri) leo@mcbills:~/Desktop/lmri_uvcganmri/lmri_uvcgan$ tree -d
+(base) leo@mcbills:~/Desktop/lmri_uvcganmri$ tree -d
 .
-├── uvcganmri
-│   ├── base
-│   ├── cgan
-│   ├── config
-│   ├── eval
-│   ├── models
-│   │   ├── discriminator
-│   │   └── generator
-│   ├── __pycache__
-│   ├── torch
-│   │   ├── layers
-│   │   │   └── __pycache__
-│   │   └── __pycache__
-│   ├── train
-│   │   ├── callbacks
-│   │   └── metrics
-│   └── utils
-└── uvcganmri.egg-info
+└── lmri_uvcgan
+    ├── contrib
+    ├── scripts
+    │   └── afhq
+    ├── tests
+    ├── uvcganmri
+    │   ├── base
+    │   ├── cgan
+    │   ├── config
+    │   ├── data
+    │   │   └── datasets
+    │   ├── eval
+    │   ├── models
+    │   │   ├── discriminator
+    │   │   └── generator
+    │   ├── __pycache__
+    │   ├── torch
+    │   │   ├── layers
+    │   │   │   └── __pycache__
+    │   │   └── __pycache__
+    │   ├── train
+    │   │   ├── callbacks
+    │   │   └── metrics
+    │   └── utils
+    └── uvcganmri.egg-info
 
-19 directories
+26 directories
 ```
 
-The most important file for now is the pyproject.toml file which I wrote to replace the setup.py used in the original uvcgan2 because the latter is deprecated and will not be maintained in the future.
+The most important file for now is the pyproject.toml file which I wrote to replace the setup.py used in the original uvcgan2 because the latter is deprecated and will not be maintained in the future. You can find that file in the root of the project otherwise the project tree displayed here is only for the directories for simplicity.
 
 ## What is the importance of the pyproject.toml file?
 Well, it sets up our project, most importantly stating the modules we are to install for the project and turns `uvcganmri` into a module too.
